@@ -104,13 +104,30 @@ h1 {
 #project-sc > aside {
     margin: 0px;
     width: 100%;
-    background-color: thistle;
+    display: flex;
 }
 #project-sc > aside > article{
     margin: 0px;
-    height: 160px;
+    height: 360px;
     width: 240px;
     background-color: teal;
+    position: relative;
+    margin-right: 12px;
+    border-radius: 7px;
+    background-image: 
+        linear-gradient(180deg, rgba(0,0,0,0) 39%, rgba(0,0,0,0.9680205871411064) 100%), 
+        url("../img/test1.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+#project-sc > aside > article > h5{
+    position: absolute;
+    bottom: 16px;
+    left: 22px;
+    color: #e1e1e1;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
 }
 
 #partner-sc {
