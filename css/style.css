@@ -48,7 +48,7 @@ h1 {
     font-style: italic;
     text-transform: uppercase;
     font-size: 3.4em;
-    margin-bottom: 20px;
+    margin-bottom: 48px;
 }
 
 #landing-sc {
@@ -112,7 +112,7 @@ h1 {
     width: 240px;
     background-color: teal;
     position: relative;
-    margin-right: 12px;
+    margin-right: 18px;
     border-radius: 7px;
     background-image: 
         linear-gradient(180deg, rgba(0,0,0,0) 39%, rgba(0,0,0,0.9680205871411064) 100%), 
@@ -136,9 +136,15 @@ h1 {
 }
 #equipment-sc > article{
     margin: 0px;
-    background-color: tomato;
     position: relative;
     display: flex;
+    align-items: center;
+    width: 65vw;
+    margin-bottom: 80px;
+}
+#equipment-sc > article.equip-even {
+    flex-direction: row-reverse;
+    text-align: right;
 }
 #equipment-sc > article img {
     background-color: teal;
@@ -147,12 +153,20 @@ h1 {
 }
 #equipment-sc > article > div {
     flex: 1;
-}
+    margin: 0px 40px;
+}/*
+#equipment-sc > article.equip-even {
+    flex-direction: row-reverse;
+}*/
 #equipment-sc > article h5{
     color: #e1e1e1;
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: 1.8em;
+    margin-bottom: 12px;
+}
+#equipment-sc > article p{
+    font-size: 1.1em;
 }
 
 #partner-sc {
