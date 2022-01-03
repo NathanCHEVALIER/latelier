@@ -2,8 +2,19 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #e1e1e1;
 }
 body{
-    background-color: #fff;
+    background-color: #121212;
     overflow-x: hidden;
+}
+header {
+    width: 100vw;
+    height: 84px;
+    background-color: aqua;
+}
+#landing-sc {
+    width: 100vw;
+    height: 100vh;
+    
 }
