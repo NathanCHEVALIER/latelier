@@ -109,16 +109,28 @@ h1 {
 #project-sc > aside > article{
     margin: 0px;
     height: 360px;
-    width: 240px;
+    width: 60px;
     background-color: teal;
     position: relative;
     margin-right: 18px;
     border-radius: 7px;
     background-image: 
-        linear-gradient(180deg, rgba(0,0,0,0) 39%, rgba(0,0,0,0.9680205871411064) 100%), 
+        linear-gradient(180deg, rgba(0,0,0,0.7) 70%, rgba(0,0,0,0.9680205871411064) 100%), 
         url("../img/test1.jpg");
     background-size: cover;
     background-position: center center;
+    cursor: pointer;
+    transition: ease-in-out all 0.4s;
+    overflow: hidden;
+}
+#project-sc > aside > article.prj-large{
+    width: 240px;
+}
+#project-sc > aside > article:hover{
+    width: 240px;
+    background-image: 
+        linear-gradient(180deg, rgba(0,0,0,0) 40%, rgba(0,0,0,1) 100%), 
+        url("../img/test1.jpg");
 }
 #project-sc > aside > article > h5{
     position: absolute;
