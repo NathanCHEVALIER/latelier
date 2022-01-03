@@ -130,6 +130,31 @@ h1 {
     font-size: 1.5em;
 }
 
+#equipment-sc {
+    width: 90vw;
+    margin: 240px 0px 0px 10vw;
+}
+#equipment-sc > article{
+    margin: 0px;
+    background-color: tomato;
+    position: relative;
+    display: flex;
+}
+#equipment-sc > article img {
+    background-color: teal;
+    width: 360px;
+    height: 280px;
+}
+#equipment-sc > article > div {
+    flex: 1;
+}
+#equipment-sc > article h5{
+    color: #e1e1e1;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
 #partner-sc {
     width: 100vw;
     height: 100vh
